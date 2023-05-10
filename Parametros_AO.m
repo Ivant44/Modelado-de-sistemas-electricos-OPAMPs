@@ -1,0 +1,9 @@
+R1=1e3;
+R2=R1;
+R3=10e3;
+R4=15e3;
+C1=0.1e-6;
+C2=C1;
+VIN=1;
+b=(R3+R4)/R3;
+sim("Amplificador_Operacional.slx")
